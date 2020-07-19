@@ -1,2 +1,2 @@
-# fem-single-price-grid-component
-A pricing grid component build challenge by Frontend Mentor
+# Frontend Mentor: Single Price Component
+A pricing grid component build challenge by Frontend Mentor focusing on HTML and CSS basics.
