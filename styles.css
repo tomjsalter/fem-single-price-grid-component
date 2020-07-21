@@ -1,43 +1,109 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* BODY */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: hsl(204, 43%, 93%);
-    font-family: 'Karla', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    max-width: 375px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: hsl(204, 43%, 93%);
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 375px;
 }
 
 /* HEADERS */
-.join-head, .subscribe-head, .benefits-head {
-    font-size: 1.2rem;
-    font-weight: 700;
+.join-head,
+.subscribe-head,
+.benefits-head {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 /* BOXES */
 .box {
-    padding: 15px 25px;
-    max-width: 330px;
-    margin: auto;
+  padding: 15px 25px;
+  max-width: 330px;
+  margin: auto;
+  box-shadow: 1px 6px 12px 4px hsla(217, 22%, 67%, 0.3);
 }
 
 .join.box {
-    background-color: white;
-    margin-top: 30px;
-    border-radius: 8px 8px 0px 0px;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .subscribe.box {
-    background-color: hsl(179, 62%, 43%);
+  background-color: hsl(179, 62%, 43%);
 }
 
 .benefits.box {
-    background-color: hsl(179, 46%, 52%);
-    border-radius: 0px 0px 8px 8px;
+  background-color: hsl(179, 46%, 52%);
+  border-radius: 0px 0px 5px 5px;
 }
 
+/* JOIN COMMUNITY */
+.join-head {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 25px;
+}
+
+.join-subhead {
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.join-intro {
+  color: hsl(218, 22%, 67%);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+/* MONTHLY SUBSCRIPTION */
+.subscribe-price {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.subscribe-period {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.subscribe-access {
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.subscribe-btn {
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 10px auto;
+  box-shadow: 1px 6px 14px 2px hsla(215, 11%, 38%, 0.3);
+}
+
+/* BENEFITS */
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* ATTRIBUTION */
+.attribution {
+    margin-top: 30px;
+}
